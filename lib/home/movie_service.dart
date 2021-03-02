@@ -17,7 +17,7 @@ class MovieService {
   final String _environmentConfig;
   final Dio _dio;
 
-  final String apiKey = '33fd256b35409bd80ff86645ea2bceb0';
+  final String apiKey = '';
 
   Future<List<Movie>> getMovies() async {
     try {
